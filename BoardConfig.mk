@@ -12,6 +12,8 @@ DEVICE_PATH := device/xiaomi/beryllium
 # Assert
 TARGET_OTA_ASSERT_DEVICE := beryllium
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Audio
 AUDIO_FEATURE_ENABLED_FM_POWER_OPT := true
 
